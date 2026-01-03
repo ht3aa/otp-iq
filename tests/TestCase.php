@@ -2,9 +2,9 @@
 
 namespace Ht3aa\OtpIq\Tests;
 
+use Ht3aa\OtpIq\OtpIqServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ht3aa\OtpIq\OtpIqServiceProvider;
 
 class TestCase extends Orchestra
 {

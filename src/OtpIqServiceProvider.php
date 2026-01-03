@@ -2,9 +2,9 @@
 
 namespace Ht3aa\OtpIq;
 
+use Ht3aa\OtpIq\Commands\OtpIqCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ht3aa\OtpIq\Commands\OtpIqCommand;
 
 class OtpIqServiceProvider extends PackageServiceProvider
 {
