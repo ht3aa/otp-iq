@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ht3aa\OtpIq\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class OtpIqCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'otp-iq';
 
     public $description = 'My command';
 

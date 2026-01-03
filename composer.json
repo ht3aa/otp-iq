@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ht3aa/otp-iq",
+    "description": "OTP IQ integration for Laravel. You will find all the functionality you need to make your Laravel App works easily with their api",
     "keywords": [
-        ":vendor_name",
+        "ht3aa",
         "laravel",
-        ":package_slug"
+        "otp-iq"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ht3aa/otp-iq",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Hasan Tahseen",
+            "email": "ht3aa2001@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Ht3aa\\OtpIq\\": "src/",
+            "Ht3aa\\OtpIq\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Ht3aa\\OtpIq\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ht3aa\\OtpIq\\OtpIqServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "OtpIq": "Ht3aa\\OtpIq\\Facades\\OtpIq"
             }
         }
     },
